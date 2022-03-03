@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    max-width: 21rem;
+    width: 90%;
+    padding: 1.3rem;
+    background: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.nft-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.data-section--header {
+    font-size: 1.32rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    margin-block: 1rem;
+}
+
+.data-section--description {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 200;
+    min-height: 70px;
+}
+
+.data-section--numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.data-section--numbers__price {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.data-section--numbers__time {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+hr {
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.profile-img-name {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    color: #fff;
+    font-size: 0.95rem;
+    margin-top: 1rem;
+    padding-bottom: 0.6rem;
+}
+
+.profile-name {
+    letter-spacing: 1px;
+}
+
+.profile-name span {
+    color: hsl(215, 51%, 70%);
+}
+
+.profile-img-name img {
+    width: 11%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+footer {
+    margin-top: 1rem;
+    /* color: hsl(215, 51%, 70%);
+    color: hsl(178, 100%, 50%);
+    color: hsl(217, 54%, 11%);
+    color: hsl(216, 50%, 16%);
+    color: hsl(215, 32%, 27%);
+    color: hsl(0, 0%, 100%); */
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
